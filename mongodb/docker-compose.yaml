@@ -1,0 +1,26 @@
+services:
+  mongo:
+    image: mongo:7
+    container_name: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_DATABASE=aseguradora
+    volumes:
+      - ./data:/data/db
+      - ./import:/import:ro
+    command: >
+      bash -c "
+        echo 'Iniciando MongoDB...' &&
+        mongod --bind_ip_all --logpath /var/log/mongodb.log &
+        sleep 5 &&
+        echo 'Importando JSON automáticamente...' &&
+        for f in /import/*.json; do
+          coll=$$(basename $$f .json);
+          echo 'Importando colección:' $$coll;
+          mongoimport --uri mongodb://localhost:27017/aseguradora --collection $$coll --file $$f --drop;
+        done &&
+        echo 'Importación completada. Manteniendo contenedor activo.' &&
+        tail -f /dev/null
+      "

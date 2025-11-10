@@ -1,0 +1,6 @@
+{"_id":{"$oid":"690129ebabfa1cf194b677ba"},"id_agente":102,"nombre":"María","apellido":"Martínez","matricula":"MAT002","telefono":1176543210,"email":"maria@seguros.com","zona":"Centro","activo":true}
+{"_id":{"$oid":"690129ebabfa1cf194b677bb"},"id_agente":101,"nombre":"Juan","apellido":"Torres","matricula":"MAT001","telefono":1187654321,"email":"juan@seguros.com","zona":"Norte","activo":true}
+{"_id":{"$oid":"690129ebabfa1cf194b677bc"},"id_agente":104,"nombre":"Lucía","apellido":"Suárez","matricula":"MAT004","telefono":1165432109,"email":"lucia@seguros.com","zona":"Sur","activo":false}
+{"_id":{"$oid":"690129ebabfa1cf194b677bd"},"id_agente":103,"nombre":"Pablo","apellido":"Ramos","matricula":"MAT003","telefono":1198765432,"email":"pablo@seguros.com","zona":"Oeste","activo":true}
+{"_id":{"$oid":"690129ebabfa1cf194b677be"},"id_agente":105,"nombre":"Carlos","apellido":"García","matricula":"MAT005","telefono":1154321098,"email":"carlos@seguros.com","zona":"Cuyo","activo":true}
+{"_id":{"$oid":"690129ebabfa1cf194b677bf"},"id_agente":106,"nombre":"Víctor","apellido":"Rolluedo","matricula":"MAT006","telefono":116543210,"email":"victor@seguros.com","zona":"Sur","activo":true}
