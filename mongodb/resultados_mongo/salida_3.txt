@@ -1,0 +1,2101 @@
+Current Mongosh Log ID:	6915fb047d6be6eb4dce5f46
+Connecting to:		mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.5.8
+Using MongoDB:		7.0.25
+Using Mongosh:		2.5.8
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2025-11-13T15:23:53.471+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2025-11-13T15:23:54.566+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2025-11-13T15:23:54.566+00:00: You are running this process as the root user, which is not recommended
+   2025-11-13T15:23:54.566+00:00: Soft rlimits for open file descriptors too low
+   2025-11-13T15:23:54.567+00:00: For customers running MongoDB 7.0, we suggest changing the contents of the following sysfsFile
+------
+
+test> switched to db aseguradora
+aseguradora> ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... [
+  {
+    nombre: 'Martín',
+    apellido: 'Pérez',
+    vehiculos: {
+      patente: 'AD456FG',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1002',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Martín',
+    apellido: 'Pérez',
+    vehiculos: {
+      patente: 'AD456FG',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1003',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Carla',
+    apellido: 'Ruiz',
+    vehiculos: {
+      patente: 'AC654LM',
+      marca: 'Volkswagen',
+      modelo: 'Gol'
+    },
+    polizas: {
+      nro_poliza: 'POL1005',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Loida',
+    apellido: 'Ibañez',
+    vehiculos: {
+      patente: 'EE752LY',
+      marca: 'Toyota',
+      modelo: 'Corolla'
+    },
+    polizas: {
+      nro_poliza: 'POL1009',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Anastasia',
+    apellido: 'Vives',
+    vehiculos: {
+      patente: 'YE519IC',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1010',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Florencio',
+    apellido: 'Dalmau',
+    vehiculos: {
+      patente: 'HV527ZC',
+      marca: 'Chevrolet',
+      modelo: 'Onix'
+    },
+    polizas: {
+      nro_poliza: 'POL1011',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Macario',
+    apellido: 'Batlle',
+    vehiculos: {
+      patente: 'VI992CR',
+      marca: 'Peugeot',
+      modelo: 208
+    },
+    polizas: {
+      nro_poliza: 'POL1012',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Cándida',
+    apellido: 'Adán',
+    vehiculos: {
+      patente: 'LK144QQ',
+      marca: 'Volkswagen',
+      modelo: 'Gol'
+    },
+    polizas: {
+      nro_poliza: 'POL1013',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Diana',
+    apellido: 'Cepeda',
+    vehiculos: {
+      patente: 'MF417OO',
+      marca: 'Audi',
+      modelo: 'Q2'
+    },
+    polizas: {
+      nro_poliza: 'POL1014',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Maxi',
+    apellido: 'Bello',
+    vehiculos: {
+      patente: 'FS885BQ',
+      marca: 'Volkswagen',
+      modelo: 'Bora'
+    },
+    polizas: {
+      nro_poliza: 'POL1015',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Jeremías',
+    apellido: 'Valero',
+    vehiculos: {
+      patente: 'HA305BP',
+      marca: 'Toyota',
+      modelo: 'Corolla'
+    },
+    polizas: {
+      nro_poliza: 'POL1017',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Luis Miguel',
+    apellido: 'Montalbán',
+    vehiculos: {
+      patente: 'LP358FW',
+      marca: 'Honda',
+      modelo: 'Fit'
+    },
+    polizas: {
+      nro_poliza: 'POL1016',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Felicidad',
+    apellido: 'Ferrer',
+    vehiculos: {
+      patente: 'AA122KJ',
+      marca: 'Audi',
+      modelo: 'Q2'
+    },
+    polizas: {
+      nro_poliza: 'POL1006',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Mario',
+    apellido: 'Berenguer',
+    vehiculos: {
+      patente: 'POD352',
+      marca: 'Volkswagen',
+      modelo: 'Bora'
+    },
+    polizas: {
+      nro_poliza: 'POL1007',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Ricardo',
+    apellido: 'Barral',
+    vehiculos: {
+      patente: 'IP641JQ',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1018',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Andrés',
+    apellido: 'Fernández',
+    vehiculos: {
+      patente: 'AF321JK',
+      marca: 'Peugeot',
+      modelo: 208
+    },
+    polizas: {
+      nro_poliza: 'POL1004',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Etelvina',
+    apellido: 'Bernad',
+    vehiculos: {
+      patente: 'IH161PG',
+      marca: 'Peugeot',
+      modelo: 208
+    },
+    polizas: {
+      nro_poliza: 'POL1020',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Josefina',
+    apellido: 'Arcos',
+    vehiculos: {
+      patente: 'DJ953IG',
+      marca: 'Volkswagen',
+      modelo: 'Gol'
+    },
+    polizas: {
+      nro_poliza: 'POL1021',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Josefa',
+    apellido: 'Céspedes',
+    vehiculos: {
+      patente: 'AG650SM',
+      marca: 'Honda',
+      modelo: 'Fit'
+    },
+    polizas: {
+      nro_poliza: 'POL1008',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Asunción',
+    apellido: 'Casanovas',
+    vehiculos: {
+      patente: 'YI355JW',
+      marca: 'Chevrolet',
+      modelo: 'Onix'
+    },
+    polizas: {
+      nro_poliza: 'POL1019',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Rico',
+    apellido: 'Berenguer',
+    vehiculos: {
+      patente: 'VW743XX',
+      marca: 'Audi',
+      modelo: 'Q2'
+    },
+    polizas: {
+      nro_poliza: 'POL1022',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Domitila',
+    apellido: 'Linares',
+    vehiculos: {
+      patente: 'MV777LD',
+      marca: 'Volkswagen',
+      modelo: 'Bora'
+    },
+    polizas: {
+      nro_poliza: 'POL1023',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Laura',
+    apellido: 'Gómez',
+    vehiculos: {
+      patente: 'AE123CD',
+      marca: 'Toyota',
+      modelo: 'Corolla'
+    },
+    polizas: {
+      nro_poliza: 'POL1001',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Eligio',
+    apellido: 'Quintero',
+    vehiculos: {
+      patente: 'WI201PN',
+      marca: 'Honda',
+      modelo: 'Fit'
+    },
+    polizas: {
+      nro_poliza: 'POL1024',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Adelina',
+    apellido: 'Giménez',
+    vehiculos: {
+      patente: 'ZI858YQ',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1026',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Vasco',
+    apellido: 'Vilaplana',
+    vehiculos: {
+      patente: 'RF187FX',
+      marca: 'Chevrolet',
+      modelo: 'Onix'
+    },
+    polizas: {
+      nro_poliza: 'POL1027',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Miguel',
+    apellido: 'Losada',
+    vehiculos: {
+      patente: 'WP181OJ',
+      marca: 'Peugeot',
+      modelo: 208
+    },
+    polizas: {
+      nro_poliza: 'POL1028',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Florencia',
+    apellido: 'Carreras',
+    vehiculos: {
+      patente: 'VO692PB',
+      marca: 'Audi',
+      modelo: 'Q2'
+    },
+    polizas: {
+      nro_poliza: 'POL1030',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Marta',
+    apellido: 'Gutiérrez',
+    vehiculos: {
+      patente: 'YC630IM',
+      marca: 'Volkswagen',
+      modelo: 'Bora'
+    },
+    polizas: {
+      nro_poliza: 'POL1031',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Curro',
+    apellido: 'Menendez',
+    vehiculos: {
+      patente: 'YD288RN',
+      marca: 'Honda',
+      modelo: 'Fit'
+    },
+    polizas: {
+      nro_poliza: 'POL1032',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Eusebia',
+    apellido: 'Soria',
+    vehiculos: {
+      patente: 'HG329YN',
+      marca: 'Toyota',
+      modelo: 'Corolla'
+    },
+    polizas: {
+      nro_poliza: 'POL1033',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Vasco',
+    apellido: 'Blazquez',
+    vehiculos: {
+      patente: 'AC226US',
+      marca: 'Volkswagen',
+      modelo: 'Gol'
+    },
+    polizas: {
+      nro_poliza: 'POL1029',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Javier',
+    apellido: 'Miguel',
+    vehiculos: {
+      patente: 'ST866YF',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1034',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Hermenegildo',
+    apellido: 'Carrión',
+    vehiculos: {
+      patente: 'DG872PS',
+      marca: 'Peugeot',
+      modelo: 208
+    },
+    polizas: {
+      nro_poliza: 'POL1036',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Lupe',
+    apellido: 'Márquez',
+    vehiculos: {
+      patente: 'DR847FM',
+      marca: 'Chevrolet',
+      modelo: 'Onix'
+    },
+    polizas: {
+      nro_poliza: 'POL1043',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Ricardo',
+    apellido: 'Cerdá',
+    vehiculos: {
+      patente: 'QK293NH',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1042',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Rubén',
+    apellido: 'Zorrilla',
+    vehiculos: {
+      patente: 'OL674WX',
+      marca: 'Peugeot',
+      modelo: 208
+    },
+    polizas: {
+      nro_poliza: 'POL1044',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Cristian',
+    apellido: 'Burgos',
+    vehiculos: {
+      patente: 'DB902GX',
+      marca: 'Volkswagen',
+      modelo: 'Gol'
+    },
+    polizas: {
+      nro_poliza: 'POL1045',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Débora',
+    apellido: 'Luís',
+    vehiculos: {
+      patente: 'QY836LI',
+      marca: 'Audi',
+      modelo: 'Q2'
+    },
+    polizas: {
+      nro_poliza: 'POL1046',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Mercedes',
+    apellido: 'Casals',
+    vehiculos: {
+      patente: 'CH462LX',
+      marca: 'Volkswagen',
+      modelo: 'Bora'
+    },
+    polizas: {
+      nro_poliza: 'POL1047',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Odalis',
+    apellido: 'Tenorio',
+    vehiculos: {
+      patente: 'OB678DM',
+      marca: 'Toyota',
+      modelo: 'Corolla'
+    },
+    polizas: {
+      nro_poliza: 'POL1049',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Amelia',
+    apellido: 'Valera',
+    vehiculos: {
+      patente: 'TQ195WN',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1050',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Gregorio',
+    apellido: 'Hurtado',
+    vehiculos: {
+      patente: 'VY724UZ',
+      marca: 'Toyota',
+      modelo: 'Corolla'
+    },
+    polizas: {
+      nro_poliza: 'POL1025',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Julie',
+    apellido: 'Tomás',
+    vehiculos: {
+      patente: 'EC996OT',
+      marca: 'Chevrolet',
+      modelo: 'Onix'
+    },
+    polizas: {
+      nro_poliza: 'POL1051',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Ernesto',
+    apellido: 'Pla',
+    vehiculos: {
+      patente: 'QQ133NQ',
+      marca: 'Peugeot',
+      modelo: 208
+    },
+    polizas: {
+      nro_poliza: 'POL1052',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Tomasa',
+    apellido: 'Zurita',
+    vehiculos: {
+      patente: 'NG796KP',
+      marca: 'Honda',
+      modelo: 'Fit'
+    },
+    polizas: {
+      nro_poliza: 'POL1048',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Cornelio',
+    apellido: 'Huguet',
+    vehiculos: {
+      patente: 'AA933JW',
+      marca: 'Volkswagen',
+      modelo: 'Gol'
+    },
+    polizas: {
+      nro_poliza: 'POL1037',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Epifanio',
+    apellido: 'Carrión',
+    vehiculos: {
+      patente: 'MH651CK',
+      marca: 'Volkswagen',
+      modelo: 'Bora'
+    },
+    polizas: {
+      nro_poliza: 'POL1039',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Édgar',
+    apellido: 'Téllez',
+    vehiculos: {
+      patente: 'TD931XS',
+      marca: 'Honda',
+      modelo: 'Fit'
+    },
+    polizas: {
+      nro_poliza: 'POL1040',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Yolanda',
+    apellido: 'Baró',
+    vehiculos: {
+      patente: 'SE168CR',
+      marca: 'Toyota',
+      modelo: 'Corolla'
+    },
+    polizas: {
+      nro_poliza: 'POL1041',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Esmeralda',
+    apellido: 'Montoya',
+    vehiculos: {
+      patente: 'FD105AG',
+      marca: 'Volkswagen',
+      modelo: 'Gol'
+    },
+    polizas: {
+      nro_poliza: 'POL1053',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Ainara',
+    apellido: 'Santana',
+    vehiculos: {
+      patente: 'JB781SS',
+      marca: 'Audi',
+      modelo: 'Q2'
+    },
+    polizas: {
+      nro_poliza: 'POL1054',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Olga',
+    apellido: 'Pozuelo',
+    vehiculos: {
+      patente: 'CW451WE',
+      marca: 'Volkswagen',
+      modelo: 'Bora'
+    },
+    polizas: {
+      nro_poliza: 'POL1055',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Jonatan',
+    apellido: 'Piña',
+    vehiculos: {
+      patente: 'EH812PT',
+      marca: 'Honda',
+      modelo: 'Fit'
+    },
+    polizas: {
+      nro_poliza: 'POL1056',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Ruperta',
+    apellido: 'Armengol',
+    vehiculos: {
+      patente: 'QL280JD',
+      marca: 'Toyota',
+      modelo: 'Corolla'
+    },
+    polizas: {
+      nro_poliza: 'POL1057',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Ana',
+    apellido: 'Almansa',
+    vehiculos: {
+      patente: 'FN817GX',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1058',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Ale',
+    apellido: 'Moliner',
+    vehiculos: {
+      patente: 'JV233TW',
+      marca: 'Audi',
+      modelo: 'Q2'
+    },
+    polizas: {
+      nro_poliza: 'POL1038',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Montserrat',
+    apellido: 'Lara',
+    vehiculos: {
+      patente: 'TK372WX',
+      marca: 'Chevrolet',
+      modelo: 'Onix'
+    },
+    polizas: {
+      nro_poliza: 'POL1059',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Íñigo',
+    apellido: 'Pedro',
+    vehiculos: {
+      patente: 'WI524JC',
+      marca: 'Peugeot',
+      modelo: 208
+    },
+    polizas: {
+      nro_poliza: 'POL1060',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Gertrudis',
+    apellido: 'Olivera',
+    vehiculos: {
+      patente: 'GE989WO',
+      marca: 'Volkswagen',
+      modelo: 'Gol'
+    },
+    polizas: {
+      nro_poliza: 'POL1061',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Emigdio',
+    apellido: 'Andres',
+    vehiculos: {
+      patente: 'XF573AP',
+      marca: 'Audi',
+      modelo: 'Q2'
+    },
+    polizas: {
+      nro_poliza: 'POL1062',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Marciano',
+    apellido: 'Manrique',
+    vehiculos: {
+      patente: 'MA157RJ',
+      marca: 'Volkswagen',
+      modelo: 'Bora'
+    },
+    polizas: {
+      nro_poliza: 'POL1063',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Pacífica',
+    apellido: 'Barreda',
+    vehiculos: {
+      patente: 'LP475IE',
+      marca: 'Honda',
+      modelo: 'Fit'
+    },
+    polizas: {
+      nro_poliza: 'POL1064',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Luciano',
+    apellido: 'Garriga',
+    vehiculos: {
+      patente: 'AT153HB',
+      marca: 'Toyota',
+      modelo: 'Corolla'
+    },
+    polizas: {
+      nro_poliza: 'POL1065',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Jose Francisco',
+    apellido: 'Carreño',
+    vehiculos: {
+      patente: 'QG666SX',
+      marca: 'Chevrolet',
+      modelo: 'Onix'
+    },
+    polizas: {
+      nro_poliza: 'POL1035',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Itziar',
+    apellido: 'Blasco',
+    vehiculos: {
+      patente: 'OY964IG',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1066',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Bernardino',
+    apellido: 'Merino',
+    vehiculos: {
+      patente: 'BT990MK',
+      marca: 'Chevrolet',
+      modelo: 'Onix'
+    },
+    polizas: {
+      nro_poliza: 'POL1067',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Miguel Ángel',
+    apellido: 'Farré',
+    vehiculos: {
+      patente: 'RJ643OG',
+      marca: 'Volkswagen',
+      modelo: 'Gol'
+    },
+    polizas: {
+      nro_poliza: 'POL1069',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Cebrián',
+    apellido: 'Rodriguez',
+    vehiculos: {
+      patente: 'JU524CJ',
+      marca: 'Audi',
+      modelo: 'Q2'
+    },
+    polizas: {
+      nro_poliza: 'POL1070',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Cayetano',
+    apellido: 'Pozuelo',
+    vehiculos: {
+      patente: 'ME275JE',
+      marca: 'Peugeot',
+      modelo: 208
+    },
+    polizas: {
+      nro_poliza: 'POL1076',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Melisa',
+    apellido: 'Álamo',
+    vehiculos: {
+      patente: 'DC967TT',
+      marca: 'Volkswagen',
+      modelo: 'Bora'
+    },
+    polizas: {
+      nro_poliza: 'POL1079',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Graciano',
+    apellido: 'Ruiz',
+    vehiculos: {
+      patente: 'HK752LW',
+      marca: 'Honda',
+      modelo: 'Fit'
+    },
+    polizas: {
+      nro_poliza: 'POL1080',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Nazaret',
+    apellido: 'Fabregat',
+    vehiculos: {
+      patente: 'ZZ921MR',
+      marca: 'Toyota',
+      modelo: 'Corolla'
+    },
+    polizas: {
+      nro_poliza: 'POL1081',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Maxi',
+    apellido: 'Vilar',
+    vehiculos: {
+      patente: 'LY237OR',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1082',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Isa',
+    apellido: 'Caro',
+    vehiculos: {
+      patente: 'HQ283BD',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1074',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Pastora',
+    apellido: 'Cordero',
+    vehiculos: {
+      patente: 'GB520ET',
+      marca: 'Chevrolet',
+      modelo: 'Onix'
+    },
+    polizas: {
+      nro_poliza: 'POL1083',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'María Ángeles',
+    apellido: 'Estevez',
+    vehiculos: {
+      patente: 'EV246VJ',
+      marca: 'Peugeot',
+      modelo: 208
+    },
+    polizas: {
+      nro_poliza: 'POL1084',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Xiomara',
+    apellido: 'Martín',
+    vehiculos: {
+      patente: 'US481LN',
+      marca: 'Volkswagen',
+      modelo: 'Gol'
+    },
+    polizas: {
+      nro_poliza: 'POL1085',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Luciano',
+    apellido: 'Saura',
+    vehiculos: {
+      patente: 'WO824MK',
+      marca: 'Audi',
+      modelo: 'Q2'
+    },
+    polizas: {
+      nro_poliza: 'POL1086',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Benito',
+    apellido: 'Amor',
+    vehiculos: {
+      patente: 'MH652ZI',
+      marca: 'Honda',
+      modelo: 'Fit'
+    },
+    polizas: {
+      nro_poliza: 'POL1088',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Ale',
+    apellido: 'Sanz',
+    vehiculos: {
+      patente: 'NE228EJ',
+      marca: 'Toyota',
+      modelo: 'Corolla'
+    },
+    polizas: {
+      nro_poliza: 'POL1089',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Josué',
+    apellido: 'Lastra',
+    vehiculos: {
+      patente: 'LV031OK',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1090',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Purificación',
+    apellido: 'Vilalta',
+    vehiculos: {
+      patente: 'BB680QW',
+      marca: 'Chevrolet',
+      modelo: 'Onix'
+    },
+    polizas: {
+      nro_poliza: 'POL1091',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Nacio',
+    apellido: 'Bosch',
+    vehiculos: {
+      patente: 'PY624RF',
+      marca: 'Peugeot',
+      modelo: 208
+    },
+    polizas: {
+      nro_poliza: 'POL1092',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Josué',
+    apellido: 'Armengol',
+    vehiculos: {
+      patente: 'BG448FC',
+      marca: 'Volkswagen',
+      modelo: 'Gol'
+    },
+    polizas: {
+      nro_poliza: 'POL1077',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Balduino',
+    apellido: 'Cruz',
+    vehiculos: {
+      patente: 'LD935QE',
+      marca: 'Volkswagen',
+      modelo: 'Gol'
+    },
+    polizas: {
+      nro_poliza: 'POL1093',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Poncio',
+    apellido: 'Gras',
+    vehiculos: {
+      patente: 'ZW410KT',
+      marca: 'Peugeot',
+      modelo: 208
+    },
+    polizas: {
+      nro_poliza: 'POL1068',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Isabela',
+    apellido: 'Torres',
+    vehiculos: {
+      patente: 'OF811ET',
+      marca: 'Audi',
+      modelo: 'Q2'
+    },
+    polizas: {
+      nro_poliza: 'POL1094',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Renato',
+    apellido: 'Morante',
+    vehiculos: {
+      patente: 'UC319NC',
+      marca: 'Volkswagen',
+      modelo: 'Bora'
+    },
+    polizas: {
+      nro_poliza: 'POL1071',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Rómulo',
+    apellido: 'Chaves',
+    vehiculos: {
+      patente: 'MG664BJ',
+      marca: 'Honda',
+      modelo: 'Fit'
+    },
+    polizas: {
+      nro_poliza: 'POL1072',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Nayara',
+    apellido: 'Milla',
+    vehiculos: {
+      patente: 'VJ533YO',
+      marca: 'Audi',
+      modelo: 'Q2'
+    },
+    polizas: {
+      nro_poliza: 'POL1078',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Odalis',
+    apellido: 'Salinas',
+    vehiculos: {
+      patente: 'PK744PV',
+      marca: 'Chevrolet',
+      modelo: 'Onix'
+    },
+    polizas: {
+      nro_poliza: 'POL1075',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Desiderio',
+    apellido: 'Mayo',
+    vehiculos: {
+      patente: 'US293BV',
+      marca: 'Volkswagen',
+      modelo: 'Bora'
+    },
+    polizas: {
+      nro_poliza: 'POL1087',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Corona',
+    apellido: 'Bejarano',
+    vehiculos: {
+      patente: 'MT714ZH',
+      marca: 'Honda',
+      modelo: 'Fit'
+    },
+    polizas: {
+      nro_poliza: 'POL1096',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Araceli',
+    apellido: 'Ferrer',
+    vehiculos: {
+      patente: 'NY817UT',
+      marca: 'Toyota',
+      modelo: 'Corolla'
+    },
+    polizas: {
+      nro_poliza: 'POL1097',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Jafet',
+    apellido: 'Carrión',
+    vehiculos: {
+      patente: 'SD330BL',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1098',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'África',
+    apellido: 'Herrero',
+    vehiculos: {
+      patente: 'MI478UB',
+      marca: 'Chevrolet',
+      modelo: 'Onix'
+    },
+    polizas: {
+      nro_poliza: 'POL1099',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Hermenegildo',
+    apellido: 'Sales',
+    vehiculos: {
+      patente: 'XU414GW',
+      marca: 'Peugeot',
+      modelo: 208
+    },
+    polizas: {
+      nro_poliza: 'POL1100',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Mónica',
+    apellido: 'Alcántara',
+    vehiculos: {
+      patente: 'SD967GJ',
+      marca: 'Volkswagen',
+      modelo: 'Gol'
+    },
+    polizas: {
+      nro_poliza: 'POL1101',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Febe',
+    apellido: 'Bastida',
+    vehiculos: {
+      patente: 'HM504WR',
+      marca: 'Audi',
+      modelo: 'Q2'
+    },
+    polizas: {
+      nro_poliza: 'POL1102',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Ciriaco',
+    apellido: 'Batalla',
+    vehiculos: {
+      patente: 'YP336KK',
+      marca: 'Volkswagen',
+      modelo: 'Bora'
+    },
+    polizas: {
+      nro_poliza: 'POL1103',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Herminio',
+    apellido: 'Soto',
+    vehiculos: {
+      patente: 'GI849TZ',
+      marca: 'Honda',
+      modelo: 'Fit'
+    },
+    polizas: {
+      nro_poliza: 'POL1104',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Domingo',
+    apellido: 'Pereira',
+    vehiculos: {
+      patente: 'KP836GU',
+      marca: 'Volkswagen',
+      modelo: 'Bora'
+    },
+    polizas: {
+      nro_poliza: 'POL1095',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Pacífica',
+    apellido: 'Miralles',
+    vehiculos: {
+      patente: 'OY746PG',
+      marca: 'Toyota',
+      modelo: 'Corolla'
+    },
+    polizas: {
+      nro_poliza: 'POL1105',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Benita',
+    apellido: 'Segura',
+    vehiculos: {
+      patente: 'HG572CM',
+      marca: 'Toyota',
+      modelo: 'Corolla'
+    },
+    polizas: {
+      nro_poliza: 'POL1113',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Yolanda',
+    apellido: 'Barreda',
+    vehiculos: {
+      patente: 'NO726IO',
+      marca: 'Toyota',
+      modelo: 'Corolla'
+    },
+    polizas: {
+      nro_poliza: 'POL1073',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Ramiro',
+    apellido: 'Araujo',
+    vehiculos: {
+      patente: 'NE337EY',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1114',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Mariano',
+    apellido: 'Expósito',
+    vehiculos: {
+      patente: 'YV893LS',
+      marca: 'Chevrolet',
+      modelo: 'Onix'
+    },
+    polizas: {
+      nro_poliza: 'POL1115',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Luciana',
+    apellido: 'Bayona',
+    vehiculos: {
+      patente: 'FV871AI',
+      marca: 'Peugeot',
+      modelo: 208
+    },
+    polizas: {
+      nro_poliza: 'POL1116',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Pilar',
+    apellido: 'Borrego',
+    vehiculos: {
+      patente: 'NC195UM',
+      marca: 'Volkswagen',
+      modelo: 'Gol'
+    },
+    polizas: {
+      nro_poliza: 'POL1117',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Francisco',
+    apellido: 'Taboada',
+    vehiculos: {
+      patente: 'UR326KT',
+      marca: 'Audi',
+      modelo: 'Q2'
+    },
+    polizas: {
+      nro_poliza: 'POL1118',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Alma',
+    apellido: 'Huerta',
+    vehiculos: {
+      patente: 'IC888JE',
+      marca: 'Peugeot',
+      modelo: 208
+    },
+    polizas: {
+      nro_poliza: 'POL1108',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Teresa',
+    apellido: 'Puig',
+    vehiculos: {
+      patente: 'IC205HO',
+      marca: 'Volkswagen',
+      modelo: 'Bora'
+    },
+    polizas: {
+      nro_poliza: 'POL1119',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Glauco',
+    apellido: 'Lerma',
+    vehiculos: {
+      patente: 'BG656KJ',
+      marca: 'Toyota',
+      modelo: 'Corolla'
+    },
+    polizas: {
+      nro_poliza: 'POL1121',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Víctor',
+    apellido: 'Vargas',
+    vehiculos: {
+      patente: 'VY712LA',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1122',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Bonifacio',
+    apellido: 'Carro',
+    vehiculos: {
+      patente: 'JX106WO',
+      marca: 'Chevrolet',
+      modelo: 'Onix'
+    },
+    polizas: {
+      nro_poliza: 'POL1123',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Maximiliano',
+    apellido: 'Manzano',
+    vehiculos: {
+      patente: 'XJ489PN',
+      marca: 'Honda',
+      modelo: 'Fit'
+    },
+    polizas: {
+      nro_poliza: 'POL1120',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Adelaida',
+    apellido: 'Boix',
+    vehiculos: {
+      patente: 'LR574YF',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1106',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Francisco Jose',
+    apellido: 'Clemente',
+    vehiculos: {
+      patente: 'DB485BC',
+      marca: 'Audi',
+      modelo: 'Q2'
+    },
+    polizas: {
+      nro_poliza: 'POL1110',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Hortensia',
+    apellido: 'Sotelo',
+    vehiculos: {
+      patente: 'KW053ES',
+      marca: 'Chevrolet',
+      modelo: 'Onix'
+    },
+    polizas: {
+      nro_poliza: 'POL1107',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Olegario',
+    apellido: 'Aramburu',
+    vehiculos: {
+      patente: 'OQ834DV',
+      marca: 'Volkswagen',
+      modelo: 'Gol'
+    },
+    polizas: {
+      nro_poliza: 'POL1109',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Socorro',
+    apellido: 'Tovar',
+    vehiculos: {
+      patente: 'DN763GP',
+      marca: 'Honda',
+      modelo: 'Fit'
+    },
+    polizas: {
+      nro_poliza: 'POL1112',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Jose Luis',
+    apellido: 'Carreras',
+    vehiculos: {
+      patente: 'JK567RD',
+      marca: 'Volkswagen',
+      modelo: 'Gol'
+    },
+    polizas: {
+      nro_poliza: 'POL1125',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Darío',
+    apellido: 'Villena',
+    vehiculos: {
+      patente: 'UV122JH',
+      marca: 'Peugeot',
+      modelo: 208
+    },
+    polizas: {
+      nro_poliza: 'POL1124',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Antonio',
+    apellido: 'Santos',
+    vehiculos: {
+      patente: 'PZ553SG',
+      marca: 'Audi',
+      modelo: 'Q2'
+    },
+    polizas: {
+      nro_poliza: 'POL1126',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Dan',
+    apellido: 'Carbó',
+    vehiculos: {
+      patente: 'FV537FQ',
+      marca: 'Volkswagen',
+      modelo: 'Bora'
+    },
+    polizas: {
+      nro_poliza: 'POL1111',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Clara',
+    apellido: 'Guardia',
+    vehiculos: {
+      patente: 'WF809RE',
+      marca: 'Volkswagen',
+      modelo: 'Bora'
+    },
+    polizas: {
+      nro_poliza: 'POL1127',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Vicenta',
+    apellido: 'Castejón',
+    vehiculos: {
+      patente: 'QN645JJ',
+      marca: 'Honda',
+      modelo: 'Fit'
+    },
+    polizas: {
+      nro_poliza: 'POL1128',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Eufemia',
+    apellido: 'Barriga',
+    vehiculos: {
+      patente: 'KN725PI',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1130',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Maximiliano',
+    apellido: 'Ribas',
+    vehiculos: {
+      patente: 'NG432QX',
+      marca: 'Peugeot',
+      modelo: 208
+    },
+    polizas: {
+      nro_poliza: 'POL1132',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Maxi',
+    apellido: 'Leiva',
+    vehiculos: {
+      patente: 'QZ389VN',
+      marca: 'Volkswagen',
+      modelo: 'Gol'
+    },
+    polizas: {
+      nro_poliza: 'POL1133',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Isaura',
+    apellido: 'Cabrero',
+    vehiculos: {
+      patente: 'XI338WO',
+      marca: 'Audi',
+      modelo: 'Q2'
+    },
+    polizas: {
+      nro_poliza: 'POL1134',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Macarena',
+    apellido: 'Herrero',
+    vehiculos: {
+      patente: 'YD786PM',
+      marca: 'Volkswagen',
+      modelo: 'Bora'
+    },
+    polizas: {
+      nro_poliza: 'POL1135',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Bernarda',
+    apellido: 'Tormo',
+    vehiculos: {
+      patente: 'SO435DE',
+      marca: 'Honda',
+      modelo: 'Fit'
+    },
+    polizas: {
+      nro_poliza: 'POL1136',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Fabiola',
+    apellido: 'Torrents',
+    vehiculos: {
+      patente: 'IZ323GG',
+      marca: 'Toyota',
+      modelo: 'Corolla'
+    },
+    polizas: {
+      nro_poliza: 'POL1137',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'María Carmen',
+    apellido: 'Delgado',
+    vehiculos: {
+      patente: 'CT232PP',
+      marca: 'Toyota',
+      modelo: 'Corolla'
+    },
+    polizas: {
+      nro_poliza: 'POL1129',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Severo',
+    apellido: 'Guzmán',
+    vehiculos: {
+      patente: 'IW028LE',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1138',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Cleto',
+    apellido: 'Villegas',
+    vehiculos: {
+      patente: 'HU869IG',
+      marca: 'Chevrolet',
+      modelo: 'Onix'
+    },
+    polizas: {
+      nro_poliza: 'POL1139',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Ulises',
+    apellido: 'Leiva',
+    vehiculos: {
+      patente: 'CS271NF',
+      marca: 'Chevrolet',
+      modelo: 'Onix'
+    },
+    polizas: {
+      nro_poliza: 'POL1147',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Zaira',
+    apellido: 'Medina',
+    vehiculos: {
+      patente: 'SF256DJ',
+      marca: 'Peugeot',
+      modelo: 208
+    },
+    polizas: {
+      nro_poliza: 'POL1148',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Sandra',
+    apellido: 'Gilabert',
+    vehiculos: {
+      patente: 'VP752BU',
+      marca: 'Volkswagen',
+      modelo: 'Gol'
+    },
+    polizas: {
+      nro_poliza: 'POL1149',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Cirino',
+    apellido: 'Solera',
+    vehiculos: {
+      patente: 'RE484DG',
+      marca: 'Audi',
+      modelo: 'Q2'
+    },
+    polizas: {
+      nro_poliza: 'POL1150',
+      estado: 'Suspendida'
+    }
+  },
+  {
+    nombre: 'Ascensión',
+    apellido: 'Coca',
+    vehiculos: {
+      patente: 'EC962FB',
+      marca: 'Volkswagen',
+      modelo: 'Bora'
+    },
+    polizas: {
+      nro_poliza: 'POL1151',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Amílcar',
+    apellido: 'Céspedes',
+    vehiculos: {
+      patente: 'SL971EL',
+      marca: 'Honda',
+      modelo: 'Fit'
+    },
+    polizas: {
+      nro_poliza: 'POL1152',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Imelda',
+    apellido: 'Cortés',
+    vehiculos: {
+      patente: 'WI727VW',
+      marca: 'Chevrolet',
+      modelo: 'Onix'
+    },
+    polizas: {
+      nro_poliza: 'POL1131',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Morena',
+    apellido: 'Antúnez',
+    vehiculos: {
+      patente: 'NR943EO',
+      marca: 'Audi',
+      modelo: 'Q2'
+    },
+    polizas: {
+      nro_poliza: 'POL1142',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Valerio',
+    apellido: 'Vélez',
+    vehiculos: {
+      patente: 'GE872NW',
+      marca: 'Toyota',
+      modelo: 'Corolla'
+    },
+    polizas: {
+      nro_poliza: 'POL1153',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Ovidio',
+    apellido: 'Agustí',
+    vehiculos: {
+      patente: 'DS123CB',
+      marca: 'Chevrolet',
+      modelo: 'Onix'
+    },
+    polizas: {
+      nro_poliza: 'POL1155',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Leonel',
+    apellido: 'Aguado',
+    vehiculos: {
+      patente: 'ZF152UH',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1154',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Mateo',
+    apellido: 'Rodríguez',
+    vehiculos: {
+      patente: 'VO954DC',
+      marca: 'Peugeot',
+      modelo: 208
+    },
+    polizas: {
+      nro_poliza: 'POL1156',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Iris',
+    apellido: 'Olmedo',
+    vehiculos: {
+      patente: 'BB167YT',
+      marca: 'Toyota',
+      modelo: 'Corolla'
+    },
+    polizas: {
+      nro_poliza: 'POL1145',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Lope',
+    apellido: 'Reyes',
+    vehiculos: {
+      patente: 'IQ278EU',
+      marca: 'Volkswagen',
+      modelo: 'Bora'
+    },
+    polizas: {
+      nro_poliza: 'POL1143',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Gaspar',
+    apellido: 'Hierro',
+    vehiculos: {
+      patente: 'EM250FF',
+      marca: 'Honda',
+      modelo: 'Fit'
+    },
+    polizas: {
+      nro_poliza: 'POL1144',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Conrado',
+    apellido: 'Gallo',
+    vehiculos: {
+      patente: 'QE710CD',
+      marca: 'Audi',
+      modelo: 'Q2'
+    },
+    polizas: {
+      nro_poliza: 'POL1158',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Ramón',
+    apellido: 'Mascaró',
+    vehiculos: {
+      patente: 'DN077QH',
+      marca: 'Ford',
+      modelo: 'Fiesta'
+    },
+    polizas: {
+      nro_poliza: 'POL1146',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Octavio',
+    apellido: 'Girón',
+    vehiculos: {
+      patente: 'UG316EC',
+      marca: 'Peugeot',
+      modelo: 208
+    },
+    polizas: {
+      nro_poliza: 'POL1140',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Samuel',
+    apellido: 'Cámara',
+    vehiculos: {
+      patente: 'HT818NM',
+      marca: 'Volkswagen',
+      modelo: 'Gol'
+    },
+    polizas: {
+      nro_poliza: 'POL1157',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Dimas',
+    apellido: 'Monreal',
+    vehiculos: {
+      patente: 'LA316FQ',
+      marca: 'Volkswagen',
+      modelo: 'Bora'
+    },
+    polizas: {
+      nro_poliza: 'POL1159',
+      estado: 'Activa'
+    }
+  },
+  {
+    nombre: 'Martin',
+    apellido: 'Arias',
+    vehiculos: {
+      patente: 'ZQ571EY',
+      marca: 'Honda',
+      modelo: 'Fit'
+    },
+    polizas: {
+      nro_poliza: 'POL1160',
+      estado: 'Vencida'
+    }
+  },
+  {
+    nombre: 'Alcides',
+    apellido: 'Asenjo',
+    vehiculos: {
+      patente: 'KI468KF',
+      marca: 'Volkswagen',
+      modelo: 'Gol'
+    },
+    polizas: {
+      nro_poliza: 'POL1141',
+      estado: 'Vencida'
+    }
+  }
+]
+
+aseguradora> 

@@ -1,0 +1,593 @@
+Current Mongosh Log ID:	6915fade049dbae510ce5f46
+Connecting to:		mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.5.8
+Using MongoDB:		7.0.25
+Using Mongosh:		2.5.8
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2025-11-13T15:23:53.471+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2025-11-13T15:23:54.566+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2025-11-13T15:23:54.566+00:00: You are running this process as the root user, which is not recommended
+   2025-11-13T15:23:54.566+00:00: Soft rlimits for open file descriptors too low
+   2025-11-13T15:23:54.567+00:00: For customers running MongoDB 7.0, we suggest changing the contents of the following sysfsFile
+------
+
+test> 
+test> switched to db aseguradora
+aseguradora> 
+aseguradora> ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... [
+  {
+    nombre: 'Martín',
+    apellido: 'Pérez',
+    polizas_cliente: {
+      nro_poliza: 'POL1002',
+      tipo: 'Vida',
+      fecha_inicio: '1/10/2024',
+      fecha_fin: '1/10/2025'
+    }
+  },
+  {
+    nombre: 'Anastasia',
+    apellido: 'Vives',
+    polizas_cliente: {
+      nro_poliza: 'POL1010',
+      tipo: 'Auto',
+      fecha_inicio: '21/11/2024',
+      fecha_fin: '21/11/2025'
+    }
+  },
+  {
+    nombre: 'Maxi',
+    apellido: 'Bello',
+    polizas_cliente: {
+      nro_poliza: 'POL1015',
+      tipo: 'Auto',
+      fecha_inicio: '22/11/2024',
+      fecha_fin: '22/11/2025'
+    }
+  },
+  {
+    nombre: 'Mario',
+    apellido: 'Berenguer',
+    polizas_cliente: {
+      nro_poliza: 'POL1007',
+      tipo: 'Auto',
+      fecha_inicio: '2/10/2024',
+      fecha_fin: '2/10/2025'
+    }
+  },
+  {
+    nombre: 'Andrés',
+    apellido: 'Fernández',
+    polizas_cliente: {
+      nro_poliza: 'POL1004',
+      tipo: 'Auto',
+      fecha_inicio: '1/2/2025',
+      fecha_fin: '1/2/2026'
+    }
+  },
+  {
+    nombre: 'Laura',
+    apellido: 'Gómez',
+    polizas_cliente: {
+      nro_poliza: 'POL1001',
+      tipo: 'Auto',
+      fecha_inicio: '15/1/2025',
+      fecha_fin: '15/1/2026'
+    }
+  },
+  {
+    nombre: 'Eligio',
+    apellido: 'Quintero',
+    polizas_cliente: {
+      nro_poliza: 'POL1024',
+      tipo: 'Auto',
+      fecha_inicio: '5/2/2025',
+      fecha_fin: '5/2/2026'
+    }
+  },
+  {
+    nombre: 'Florencia',
+    apellido: 'Carreras',
+    polizas_cliente: {
+      nro_poliza: 'POL1030',
+      tipo: 'Hogar',
+      fecha_inicio: '25/11/2024',
+      fecha_fin: '25/11/2025'
+    }
+  },
+  {
+    nombre: 'Curro',
+    apellido: 'Menendez',
+    polizas_cliente: {
+      nro_poliza: 'POL1032',
+      tipo: 'Salud',
+      fecha_inicio: '7/10/2024',
+      fecha_fin: '7/10/2025'
+    }
+  },
+  {
+    nombre: 'Javier',
+    apellido: 'Miguel',
+    polizas_cliente: {
+      nro_poliza: 'POL1034',
+      tipo: 'Auto',
+      fecha_inicio: '7/2/2025',
+      fecha_fin: '7/2/2026'
+    }
+  },
+  {
+    nombre: 'Ricardo',
+    apellido: 'Cerdá',
+    polizas_cliente: {
+      nro_poliza: 'POL1042',
+      tipo: 'Auto',
+      fecha_inicio: '9/10/2024',
+      fecha_fin: '9/10/2025'
+    }
+  },
+  {
+    nombre: 'Mercedes',
+    apellido: 'Casals',
+    polizas_cliente: {
+      nro_poliza: 'POL1047',
+      tipo: 'Vida',
+      fecha_inicio: '10/10/2024',
+      fecha_fin: '10/10/2025'
+    }
+  },
+  {
+    nombre: 'Odalis',
+    apellido: 'Tenorio',
+    polizas_cliente: {
+      nro_poliza: 'POL1049',
+      tipo: 'Auto',
+      fecha_inicio: '10/2/2025',
+      fecha_fin: '10/2/2026'
+    }
+  },
+  {
+    nombre: 'Amelia',
+    apellido: 'Valera',
+    polizas_cliente: {
+      nro_poliza: 'POL1050',
+      tipo: 'Salud',
+      fecha_inicio: '29/11/2024',
+      fecha_fin: '29/11/2025'
+    }
+  },
+  {
+    nombre: 'Gregorio',
+    apellido: 'Hurtado',
+    polizas_cliente: {
+      nro_poliza: 'POL1025',
+      tipo: 'Auto',
+      fecha_inicio: '24/11/2024',
+      fecha_fin: '24/11/2025'
+    }
+  },
+  {
+    nombre: 'Epifanio',
+    apellido: 'Carrión',
+    polizas_cliente: {
+      nro_poliza: 'POL1039',
+      tipo: 'Hogar',
+      fecha_inicio: '8/2/2025',
+      fecha_fin: '8/2/2026'
+    }
+  },
+  {
+    nombre: 'Édgar',
+    apellido: 'Téllez',
+    polizas_cliente: {
+      nro_poliza: 'POL1040',
+      tipo: 'Auto',
+      fecha_inicio: '27/11/2024',
+      fecha_fin: '27/11/2025'
+    }
+  },
+  {
+    nombre: 'Ainara',
+    apellido: 'Santana',
+    polizas_cliente: {
+      nro_poliza: 'POL1054',
+      tipo: 'Auto',
+      fecha_inicio: '11/2/2025',
+      fecha_fin: '11/2/2026'
+    }
+  },
+  {
+    nombre: 'Olga',
+    apellido: 'Pozuelo',
+    polizas_cliente: {
+      nro_poliza: 'POL1055',
+      tipo: 'Auto',
+      fecha_inicio: '30/11/2024',
+      fecha_fin: '30/11/2025'
+    }
+  },
+  {
+    nombre: 'Ruperta',
+    apellido: 'Armengol',
+    polizas_cliente: {
+      nro_poliza: 'POL1057',
+      tipo: 'Hogar',
+      fecha_inicio: '12/10/2024',
+      fecha_fin: '12/10/2025'
+    }
+  },
+  {
+    nombre: 'Íñigo',
+    apellido: 'Pedro',
+    polizas_cliente: {
+      nro_poliza: 'POL1060',
+      tipo: 'Auto',
+      fecha_inicio: '1/12/2024',
+      fecha_fin: '1/12/2025'
+    }
+  },
+  {
+    nombre: 'Emigdio',
+    apellido: 'Andres',
+    polizas_cliente: {
+      nro_poliza: 'POL1062',
+      tipo: 'Auto',
+      fecha_inicio: '13/10/2024',
+      fecha_fin: '13/10/2025'
+    }
+  },
+  {
+    nombre: 'Pacífica',
+    apellido: 'Barreda',
+    polizas_cliente: {
+      nro_poliza: 'POL1064',
+      tipo: 'Auto',
+      fecha_inicio: '13/2/2025',
+      fecha_fin: '13/2/2026'
+    }
+  },
+  {
+    nombre: 'Luciano',
+    apellido: 'Garriga',
+    polizas_cliente: {
+      nro_poliza: 'POL1065',
+      tipo: 'Vida',
+      fecha_inicio: '2/12/2024',
+      fecha_fin: '2/12/2025'
+    }
+  },
+  {
+    nombre: 'Cebrián',
+    apellido: 'Rodriguez',
+    polizas_cliente: {
+      nro_poliza: 'POL1070',
+      tipo: 'Auto',
+      fecha_inicio: '3/12/2024',
+      fecha_fin: '3/12/2025'
+    }
+  },
+  {
+    nombre: 'Melisa',
+    apellido: 'Álamo',
+    polizas_cliente: {
+      nro_poliza: 'POL1079',
+      tipo: 'Auto',
+      fecha_inicio: '16/2/2025',
+      fecha_fin: '16/2/2026'
+    }
+  },
+  {
+    nombre: 'Graciano',
+    apellido: 'Ruiz',
+    polizas_cliente: {
+      nro_poliza: 'POL1080',
+      tipo: 'Auto',
+      fecha_inicio: '5/12/2024',
+      fecha_fin: '5/12/2025'
+    }
+  },
+  {
+    nombre: 'Isa',
+    apellido: 'Caro',
+    polizas_cliente: {
+      nro_poliza: 'POL1074',
+      tipo: 'Vida',
+      fecha_inicio: '15/2/2025',
+      fecha_fin: '15/2/2026'
+    }
+  },
+  {
+    nombre: 'Josué',
+    apellido: 'Lastra',
+    polizas_cliente: {
+      nro_poliza: 'POL1090',
+      tipo: 'Auto',
+      fecha_inicio: '7/12/2024',
+      fecha_fin: '7/12/2025'
+    }
+  },
+  {
+    nombre: 'Isabela',
+    apellido: 'Torres',
+    polizas_cliente: {
+      nro_poliza: 'POL1094',
+      tipo: 'Auto',
+      fecha_inicio: '19/2/2025',
+      fecha_fin: '19/2/2026'
+    }
+  },
+  {
+    nombre: 'Rómulo',
+    apellido: 'Chaves',
+    polizas_cliente: {
+      nro_poliza: 'POL1072',
+      tipo: 'Auto',
+      fecha_inicio: '15/10/2024',
+      fecha_fin: '15/10/2025'
+    }
+  },
+  {
+    nombre: 'Desiderio',
+    apellido: 'Mayo',
+    polizas_cliente: {
+      nro_poliza: 'POL1087',
+      tipo: 'Auto',
+      fecha_inicio: '18/10/2024',
+      fecha_fin: '18/10/2025'
+    }
+  },
+  {
+    nombre: 'Araceli',
+    apellido: 'Ferrer',
+    polizas_cliente: {
+      nro_poliza: 'POL1097',
+      tipo: 'Auto',
+      fecha_inicio: '20/10/2024',
+      fecha_fin: '20/10/2025'
+    }
+  },
+  {
+    nombre: 'África',
+    apellido: 'Herrero',
+    polizas_cliente: {
+      nro_poliza: 'POL1099',
+      tipo: 'Auto',
+      fecha_inicio: '20/2/2025',
+      fecha_fin: '20/2/2026'
+    }
+  },
+  {
+    nombre: 'Herminio',
+    apellido: 'Soto',
+    polizas_cliente: {
+      nro_poliza: 'POL1104',
+      tipo: 'Salud',
+      fecha_inicio: '21/2/2025',
+      fecha_fin: '21/2/2026'
+    }
+  },
+  {
+    nombre: 'Domingo',
+    apellido: 'Pereira',
+    polizas_cliente: {
+      nro_poliza: 'POL1095',
+      tipo: 'Salud',
+      fecha_inicio: '8/12/2024',
+      fecha_fin: '8/12/2025'
+    }
+  },
+  {
+    nombre: 'Benita',
+    apellido: 'Segura',
+    polizas_cliente: {
+      nro_poliza: 'POL1113',
+      tipo: 'Auto',
+      fecha_inicio: '1/1/2024',
+      fecha_fin: '1/1/2025'
+    }
+  },
+  {
+    nombre: 'Francisco',
+    apellido: 'Taboada',
+    polizas_cliente: {
+      nro_poliza: 'POL1118',
+      tipo: 'Auto',
+      fecha_inicio: '2/1/2024',
+      fecha_fin: '2/1/2025'
+    }
+  },
+  {
+    nombre: 'Víctor',
+    apellido: 'Vargas',
+    polizas_cliente: {
+      nro_poliza: 'POL1122',
+      tipo: 'Auto',
+      fecha_inicio: '25/10/2024',
+      fecha_fin: '25/10/2025'
+    }
+  },
+  {
+    nombre: 'Bonifacio',
+    apellido: 'Carro',
+    polizas_cliente: {
+      nro_poliza: 'POL1123',
+      tipo: 'Auto',
+      fecha_inicio: '3/1/2024',
+      fecha_fin: '3/1/2025'
+    }
+  },
+  {
+    nombre: 'Maximiliano',
+    apellido: 'Manzano',
+    polizas_cliente: {
+      nro_poliza: 'POL1120',
+      tipo: 'Auto',
+      fecha_inicio: '13/12/2024',
+      fecha_fin: '13/12/2025'
+    }
+  },
+  {
+    nombre: 'Hortensia',
+    apellido: 'Sotelo',
+    polizas_cliente: {
+      nro_poliza: 'POL1107',
+      tipo: 'Auto',
+      fecha_inicio: '22/10/2024',
+      fecha_fin: '22/10/2025'
+    }
+  },
+  {
+    nombre: 'Olegario',
+    apellido: 'Aramburu',
+    polizas_cliente: {
+      nro_poliza: 'POL1109',
+      tipo: 'Auto',
+      fecha_inicio: '22/2/2025',
+      fecha_fin: '22/2/2026'
+    }
+  },
+  {
+    nombre: 'Jose Luis',
+    apellido: 'Carreras',
+    polizas_cliente: {
+      nro_poliza: 'POL1125',
+      tipo: 'Auto',
+      fecha_inicio: '14/12/2024',
+      fecha_fin: '14/12/2025'
+    }
+  },
+  {
+    nombre: 'Maximiliano',
+    apellido: 'Ribas',
+    polizas_cliente: {
+      nro_poliza: 'POL1132',
+      tipo: 'Auto',
+      fecha_inicio: '27/10/2024',
+      fecha_fin: '27/10/2025'
+    }
+  },
+  {
+    nombre: 'Isaura',
+    apellido: 'Cabrero',
+    polizas_cliente: {
+      nro_poliza: 'POL1134',
+      tipo: 'Auto',
+      fecha_inicio: '27/2/2025',
+      fecha_fin: '27/2/2026'
+    }
+  },
+  {
+    nombre: 'Fabiola',
+    apellido: 'Torrents',
+    polizas_cliente: {
+      nro_poliza: 'POL1137',
+      tipo: 'Auto',
+      fecha_inicio: '28/10/2024',
+      fecha_fin: '28/10/2025'
+    }
+  },
+  {
+    nombre: 'María Carmen',
+    apellido: 'Delgado',
+    polizas_cliente: {
+      nro_poliza: 'POL1129',
+      tipo: 'Auto',
+      fecha_inicio: '26/2/2025',
+      fecha_fin: '26/2/2026'
+    }
+  },
+  {
+    nombre: 'Morena',
+    apellido: 'Antúnez',
+    polizas_cliente: {
+      nro_poliza: 'POL1142',
+      tipo: 'Auto',
+      fecha_inicio: '29/10/2024',
+      fecha_fin: '29/10/2025'
+    }
+  },
+  {
+    nombre: 'Valerio',
+    apellido: 'Vélez',
+    polizas_cliente: {
+      nro_poliza: 'POL1153',
+      tipo: 'Vida',
+      fecha_inicio: '9/1/2024',
+      fecha_fin: '9/1/2025'
+    }
+  },
+  {
+    nombre: 'Ovidio',
+    apellido: 'Agustí',
+    polizas_cliente: {
+      nro_poliza: 'POL1155',
+      tipo: 'Auto',
+      fecha_inicio: '20/12/2024',
+      fecha_fin: '20/12/2025'
+    }
+  },
+  {
+    nombre: 'Leonel',
+    apellido: 'Aguado',
+    polizas_cliente: {
+      nro_poliza: 'POL1154',
+      tipo: 'Hogar',
+      fecha_inicio: '3/3/2025',
+      fecha_fin: '3/3/2026'
+    }
+  },
+  {
+    nombre: 'Lope',
+    apellido: 'Reyes',
+    polizas_cliente: {
+      nro_poliza: 'POL1143',
+      tipo: 'Salud',
+      fecha_inicio: '7/1/2024',
+      fecha_fin: '7/1/2025'
+    }
+  },
+  {
+    nombre: 'Gaspar',
+    apellido: 'Hierro',
+    polizas_cliente: {
+      nro_poliza: 'POL1144',
+      tipo: 'Auto',
+      fecha_inicio: '1/3/2025',
+      fecha_fin: '1/3/2026'
+    }
+  },
+  {
+    nombre: 'Conrado',
+    apellido: 'Gallo',
+    polizas_cliente: {
+      nro_poliza: 'POL1158',
+      tipo: 'Auto',
+      fecha_inicio: '10/1/2024',
+      fecha_fin: '10/1/2025'
+    }
+  },
+  {
+    nombre: 'Samuel',
+    apellido: 'Cámara',
+    polizas_cliente: {
+      nro_poliza: 'POL1157',
+      tipo: 'Auto',
+      fecha_inicio: '1/11/2024',
+      fecha_fin: '1/11/2025'
+    }
+  },
+  {
+    nombre: 'Dimas',
+    apellido: 'Monreal',
+    polizas_cliente: {
+      nro_poliza: 'POL1159',
+      tipo: 'Auto',
+      fecha_inicio: '4/3/2025',
+      fecha_fin: '4/3/2026'
+    }
+  }
+]
+
+aseguradora> 

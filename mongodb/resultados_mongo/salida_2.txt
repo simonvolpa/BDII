@@ -1,0 +1,277 @@
+Current Mongosh Log ID:	6915faf440fb3e1dd9ce5f46
+Connecting to:		mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.5.8
+Using MongoDB:		7.0.25
+Using Mongosh:		2.5.8
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2025-11-13T15:23:53.471+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2025-11-13T15:23:54.566+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2025-11-13T15:23:54.566+00:00: You are running this process as the root user, which is not recommended
+   2025-11-13T15:23:54.566+00:00: Soft rlimits for open file descriptors too low
+   2025-11-13T15:23:54.567+00:00: For customers running MongoDB 7.0, we suggest changing the contents of the following sysfsFile
+------
+
+test> switched to db aseguradora
+aseguradora> ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... [
+  {
+    tipo: 'Accidente',
+    monto_estimado: 500200,
+    cliente_info: {
+      nombre: 'Loida',
+      apellido: 'Ibañez'
+    }
+  },
+  {
+    tipo: 'Danio',
+    monto_estimado: 150200,
+    cliente_info: {
+      nombre: 'Julie',
+      apellido: 'Tomás'
+    }
+  },
+  {
+    tipo: 'Accidente',
+    monto_estimado: 500000,
+    cliente_info: {
+      nombre: 'Laura',
+      apellido: 'Gómez'
+    }
+  },
+  {
+    tipo: 'Accidente',
+    monto_estimado: 500300,
+    cliente_info: {
+      nombre: 'Ainara',
+      apellido: 'Santana'
+    }
+  },
+  {
+    tipo: 'Danio',
+    monto_estimado: 150000,
+    cliente_info: {
+      nombre: 'Andrés',
+      apellido: 'Fernández'
+    }
+  },
+  {
+    tipo: 'Accidente',
+    monto_estimado: 500100,
+    cliente_info: {
+      nombre: 'Andrés',
+      apellido: 'Fernández'
+    }
+  },
+  {
+    tipo: 'Danio',
+    monto_estimado: 150300,
+    cliente_info: {
+      nombre: 'Jonatan',
+      apellido: 'Piña'
+    }
+  },
+  {
+    tipo: 'Accidente',
+    monto_estimado: 500400,
+    cliente_info: {
+      nombre: 'Montserrat',
+      apellido: 'Lara'
+    }
+  },
+  {
+    tipo: 'Danio',
+    monto_estimado: 150400,
+    cliente_info: {
+      nombre: 'Gertrudis',
+      apellido: 'Olivera'
+    }
+  },
+  {
+    tipo: 'Danio',
+    monto_estimado: 150100,
+    cliente_info: {
+      nombre: 'Felicidad',
+      apellido: 'Ferrer'
+    }
+  },
+  {
+    tipo: 'Accidente',
+    monto_estimado: 500500,
+    cliente_info: {
+      nombre: 'Pacífica',
+      apellido: 'Barreda'
+    }
+  },
+  {
+    tipo: 'Danio',
+    monto_estimado: 150500,
+    cliente_info: {
+      nombre: 'Adelina',
+      apellido: 'Giménez'
+    }
+  },
+  {
+    tipo: 'Accidente',
+    monto_estimado: 500600,
+    cliente_info: {
+      nombre: 'Vasco',
+      apellido: 'Blazquez'
+    }
+  },
+  {
+    tipo: 'Danio',
+    monto_estimado: 150600,
+    cliente_info: {
+      nombre: 'Marta',
+      apellido: 'Gutiérrez'
+    }
+  },
+  {
+    tipo: 'Danio',
+    monto_estimado: 150700,
+    cliente_info: {
+      nombre: 'Hermenegildo',
+      apellido: 'Carrión'
+    }
+  },
+  {
+    tipo: 'Accidente',
+    monto_estimado: 500800,
+    cliente_info: {
+      nombre: 'Epifanio',
+      apellido: 'Carrión'
+    }
+  },
+  {
+    tipo: 'Danio',
+    monto_estimado: 151000,
+    cliente_info: {
+      nombre: 'Julie',
+      apellido: 'Tomás'
+    }
+  },
+  {
+    tipo: 'Danio',
+    monto_estimado: 150800,
+    cliente_info: {
+      nombre: 'Yolanda',
+      apellido: 'Baró'
+    }
+  },
+  {
+    tipo: 'Accidente',
+    monto_estimado: 500900,
+    cliente_info: {
+      nombre: 'Rubén',
+      apellido: 'Zorrilla'
+    }
+  },
+  {
+    tipo: 'Danio',
+    monto_estimado: 150900,
+    cliente_info: {
+      nombre: 'Débora',
+      apellido: 'Luís'
+    }
+  },
+  {
+    tipo: 'Accidente',
+    monto_estimado: 500700,
+    cliente_info: {
+      nombre: 'Javier',
+      apellido: 'Miguel'
+    }
+  },
+  {
+    tipo: 'Danio',
+    monto_estimado: 151200,
+    cliente_info: {
+      nombre: 'Gertrudis',
+      apellido: 'Olivera'
+    }
+  },
+  {
+    tipo: 'Accidente',
+    monto_estimado: 501300,
+    cliente_info: {
+      nombre: 'Pacífica',
+      apellido: 'Barreda'
+    }
+  },
+  {
+    tipo: 'Danio',
+    monto_estimado: 151300,
+    cliente_info: {
+      nombre: 'Itziar',
+      apellido: 'Blasco'
+    }
+  },
+  {
+    tipo: 'Accidente',
+    monto_estimado: 501000,
+    cliente_info: {
+      nombre: 'Odalis',
+      apellido: 'Tenorio'
+    }
+  },
+  {
+    tipo: 'Accidente',
+    monto_estimado: 501400,
+    cliente_info: {
+      nombre: 'Miguel Ángel',
+      apellido: 'Farré'
+    }
+  },
+  {
+    tipo: 'Danio',
+    monto_estimado: 151100,
+    cliente_info: {
+      nombre: 'Jonatan',
+      apellido: 'Piña'
+    }
+  },
+  {
+    tipo: 'Accidente',
+    monto_estimado: 501100,
+    cliente_info: {
+      nombre: 'Ainara',
+      apellido: 'Santana'
+    }
+  },
+  {
+    tipo: 'Accidente',
+    monto_estimado: 501200,
+    cliente_info: {
+      nombre: 'Montserrat',
+      apellido: 'Lara'
+    }
+  },
+  {
+    tipo: 'Danio',
+    monto_estimado: 151400,
+    cliente_info: {
+      nombre: 'Renato',
+      apellido: 'Morante'
+    }
+  },
+  {
+    tipo: 'Accidente',
+    monto_estimado: 501500,
+    cliente_info: {
+      nombre: 'Martín',
+      apellido: 'Pérez'
+    }
+  },
+  {
+    tipo: 'Danio',
+    monto_estimado: 151500,
+    cliente_info: {
+      nombre: 'Carla',
+      apellido: 'Ruiz'
+    }
+  }
+]
+
+aseguradora> 

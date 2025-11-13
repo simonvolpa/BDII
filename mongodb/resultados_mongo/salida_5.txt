@@ -1,0 +1,73 @@
+Current Mongosh Log ID:	6915fb2cbd659128e8ce5f46
+Connecting to:		mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.5.8
+Using MongoDB:		7.0.25
+Using Mongosh:		2.5.8
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2025-11-13T15:23:53.471+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2025-11-13T15:23:54.566+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2025-11-13T15:23:54.566+00:00: You are running this process as the root user, which is not recommended
+   2025-11-13T15:23:54.566+00:00: Soft rlimits for open file descriptors too low
+   2025-11-13T15:23:54.567+00:00: For customers running MongoDB 7.0, we suggest changing the contents of the following sysfsFile
+------
+
+test> 
+test> 
+test> 
+test> switched to db aseguradora
+aseguradora> 
+aseguradora> ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... [
+  {
+    id_agente: 102,
+    nombre: 'María',
+    apellido: 'Martínez',
+    zona: 'Centro',
+    activo: true,
+    cantidad_polizas: 44
+  },
+  {
+    id_agente: 101,
+    nombre: 'Juan',
+    apellido: 'Torres',
+    zona: 'Norte',
+    activo: true,
+    cantidad_polizas: 23
+  },
+  {
+    id_agente: 104,
+    nombre: 'Lucía',
+    apellido: 'Suárez',
+    zona: 'Sur',
+    activo: false,
+    cantidad_polizas: 22
+  },
+  {
+    id_agente: 103,
+    nombre: 'Pablo',
+    apellido: 'Ramos',
+    zona: 'Oeste',
+    activo: true,
+    cantidad_polizas: 22
+  },
+  {
+    id_agente: 106,
+    nombre: 'Víctor',
+    apellido: 'Rolluedo',
+    zona: 'Sur',
+    activo: true,
+    cantidad_polizas: 22
+  },
+  {
+    id_agente: 105,
+    nombre: 'Carlos',
+    apellido: 'García',
+    zona: 'Cuyo',
+    activo: true,
+    cantidad_polizas: 22
+  }
+]
+
+aseguradora> 

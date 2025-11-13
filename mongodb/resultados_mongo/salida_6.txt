@@ -1,0 +1,251 @@
+Current Mongosh Log ID:	6915fb37d07d1cd9e0ce5f46
+Connecting to:		mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.5.8
+Using MongoDB:		7.0.25
+Using Mongosh:		2.5.8
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2025-11-13T15:23:53.471+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2025-11-13T15:23:54.566+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2025-11-13T15:23:54.566+00:00: You are running this process as the root user, which is not recommended
+   2025-11-13T15:23:54.566+00:00: Soft rlimits for open file descriptors too low
+   2025-11-13T15:23:54.567+00:00: For customers running MongoDB 7.0, we suggest changing the contents of the following sysfsFile
+------
+
+test> switched to db aseguradora
+aseguradora> ... ... ... ... ... ... ... ... ... [
+  {
+    id_cliente: 2,
+    nombre: 'Martín',
+    apellido: 'Pérez'
+  },
+  {
+    id_cliente: 11,
+    nombre: 'Florencio',
+    apellido: 'Dalmau'
+  },
+  {
+    id_cliente: 16,
+    nombre: 'Luis Miguel',
+    apellido: 'Montalbán'
+  },
+  {
+    id_cliente: 18,
+    nombre: 'Ricardo',
+    apellido: 'Barral'
+  },
+  {
+    id_cliente: 8,
+    nombre: 'Josefa',
+    apellido: 'Céspedes'
+  },
+  {
+    id_cliente: 19,
+    nombre: 'Asunción',
+    apellido: 'Casanovas'
+  },
+  {
+    id_cliente: 23,
+    nombre: 'Domitila',
+    apellido: 'Linares'
+  },
+  {
+    id_cliente: 26,
+    nombre: 'Adelina',
+    apellido: 'Giménez'
+  },
+  {
+    id_cliente: 27,
+    nombre: 'Vasco',
+    apellido: 'Vilaplana'
+  },
+  {
+    id_cliente: 28,
+    nombre: 'Miguel',
+    apellido: 'Losada'
+  },
+  {
+    id_cliente: 31,
+    nombre: 'Marta',
+    apellido: 'Gutiérrez'
+  },
+  {
+    id_cliente: 33,
+    nombre: 'Eusebia',
+    apellido: 'Soria'
+  },
+  {
+    id_cliente: 36,
+    nombre: 'Hermenegildo',
+    apellido: 'Carrión'
+  },
+  {
+    id_cliente: 43,
+    nombre: 'Lupe',
+    apellido: 'Márquez'
+  },
+  {
+    id_cliente: 46,
+    nombre: 'Débora',
+    apellido: 'Luís'
+  },
+  {
+    id_cliente: 51,
+    nombre: 'Julie',
+    apellido: 'Tomás'
+  },
+  {
+    id_cliente: 48,
+    nombre: 'Tomasa',
+    apellido: 'Zurita'
+  },
+  {
+    id_cliente: 41,
+    nombre: 'Yolanda',
+    apellido: 'Baró'
+  },
+  {
+    id_cliente: 56,
+    nombre: 'Jonatan',
+    apellido: 'Piña'
+  },
+  {
+    id_cliente: 58,
+    nombre: 'Ana',
+    apellido: 'Almansa'
+  },
+  {
+    id_cliente: 38,
+    nombre: 'Ale',
+    apellido: 'Moliner'
+  },
+  {
+    id_cliente: 59,
+    nombre: 'Montserrat',
+    apellido: 'Lara'
+  },
+  {
+    id_cliente: 63,
+    nombre: 'Marciano',
+    apellido: 'Manrique'
+  },
+  {
+    id_cliente: 35,
+    nombre: 'Jose Francisco',
+    apellido: 'Carreño'
+  },
+  {
+    id_cliente: 66,
+    nombre: 'Itziar',
+    apellido: 'Blasco'
+  },
+  {
+    id_cliente: 67,
+    nombre: 'Bernardino',
+    apellido: 'Merino'
+  },
+  {
+    id_cliente: 76,
+    nombre: 'Cayetano',
+    apellido: 'Pozuelo'
+  },
+  {
+    id_cliente: 81,
+    nombre: 'Nazaret',
+    apellido: 'Fabregat'
+  },
+  {
+    id_cliente: 83,
+    nombre: 'Pastora',
+    apellido: 'Cordero'
+  },
+  {
+    id_cliente: 91,
+    nombre: 'Purificación',
+    apellido: 'Vilalta'
+  },
+  {
+    id_cliente: 68,
+    nombre: 'Poncio',
+    apellido: 'Gras'
+  },
+  {
+    id_cliente: 71,
+    nombre: 'Renato',
+    apellido: 'Morante'
+  },
+  {
+    id_cliente: 78,
+    nombre: 'Nayara',
+    apellido: 'Milla'
+  },
+  {
+    id_cliente: 75,
+    nombre: 'Odalis',
+    apellido: 'Salinas'
+  },
+  {
+    id_cliente: 100,
+    nombre: 'Hermenegildo',
+    apellido: 'Sales'
+  },
+  {
+    id_cliente: 73,
+    nombre: 'Yolanda',
+    apellido: 'Barreda'
+  },
+  {
+    id_cliente: 112,
+    nombre: 'Socorro',
+    apellido: 'Tovar'
+  },
+  {
+    id_cliente: 124,
+    nombre: 'Darío',
+    apellido: 'Villena'
+  },
+  {
+    id_cliente: 136,
+    nombre: 'Bernarda',
+    apellido: 'Tormo'
+  },
+  {
+    id_cliente: 148,
+    nombre: 'Zaira',
+    apellido: 'Medina'
+  },
+  {
+    id_cliente: 151,
+    nombre: 'Ascensión',
+    apellido: 'Coca'
+  },
+  {
+    id_cliente: 131,
+    nombre: 'Imelda',
+    apellido: 'Cortés'
+  },
+  {
+    id_cliente: 156,
+    nombre: 'Mateo',
+    apellido: 'Rodríguez'
+  },
+  {
+    id_cliente: 146,
+    nombre: 'Ramón',
+    apellido: 'Mascaró'
+  },
+  {
+    id_cliente: 160,
+    nombre: 'Martin',
+    apellido: 'Arias'
+  },
+  {
+    id_cliente: 141,
+    nombre: 'Alcides',
+    apellido: 'Asenjo'
+  }
+]
+
+aseguradora> 

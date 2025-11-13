@@ -1,0 +1,451 @@
+Current Mongosh Log ID:	6915fb43e36c93217ace5f46
+Connecting to:		mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.5.8
+Using MongoDB:		7.0.25
+Using Mongosh:		2.5.8
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2025-11-13T15:23:53.471+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2025-11-13T15:23:54.566+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2025-11-13T15:23:54.566+00:00: You are running this process as the root user, which is not recommended
+   2025-11-13T15:23:54.566+00:00: Soft rlimits for open file descriptors too low
+   2025-11-13T15:23:54.567+00:00: For customers running MongoDB 7.0, we suggest changing the contents of the following sysfsFile
+------
+
+test> switched to db aseguradora
+aseguradora> ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... [
+  {
+    nro_poliza: 'POL1113',
+    id_cliente: 113,
+    fecha_inicio: '1/1/2024'
+  },
+  {
+    nro_poliza: 'POL1118',
+    id_cliente: 118,
+    fecha_inicio: '2/1/2024'
+  },
+  {
+    nro_poliza: 'POL1123',
+    id_cliente: 123,
+    fecha_inicio: '3/1/2024'
+  },
+  {
+    nro_poliza: 'POL1128',
+    id_cliente: 128,
+    fecha_inicio: '4/1/2024'
+  },
+  {
+    nro_poliza: 'POL1133',
+    id_cliente: 133,
+    fecha_inicio: '5/1/2024'
+  },
+  {
+    nro_poliza: 'POL1143',
+    id_cliente: 143,
+    fecha_inicio: '7/1/2024'
+  },
+  {
+    nro_poliza: 'POL1153',
+    id_cliente: 153,
+    fecha_inicio: '9/1/2024'
+  },
+  {
+    nro_poliza: 'POL1158',
+    id_cliente: 158,
+    fecha_inicio: '10/1/2024'
+  },
+  {
+    nro_poliza: 'POL1002',
+    id_cliente: 2,
+    fecha_inicio: '1/10/2024'
+  },
+  {
+    nro_poliza: 'POL1007',
+    id_cliente: 7,
+    fecha_inicio: '2/10/2024'
+  },
+  {
+    nro_poliza: 'POL1012',
+    id_cliente: 12,
+    fecha_inicio: '3/10/2024'
+  },
+  {
+    nro_poliza: 'POL1017',
+    id_cliente: 17,
+    fecha_inicio: '4/10/2024'
+  },
+  {
+    nro_poliza: 'POL1022',
+    id_cliente: 22,
+    fecha_inicio: '5/10/2024'
+  },
+  {
+    nro_poliza: 'POL1032',
+    id_cliente: 32,
+    fecha_inicio: '7/10/2024'
+  },
+  {
+    nro_poliza: 'POL1042',
+    id_cliente: 42,
+    fecha_inicio: '9/10/2024'
+  },
+  {
+    nro_poliza: 'POL1047',
+    id_cliente: 47,
+    fecha_inicio: '10/10/2024'
+  },
+  {
+    nro_poliza: 'POL1052',
+    id_cliente: 52,
+    fecha_inicio: '11/10/2024'
+  },
+  {
+    nro_poliza: 'POL1057',
+    id_cliente: 57,
+    fecha_inicio: '12/10/2024'
+  },
+  {
+    nro_poliza: 'POL1062',
+    id_cliente: 62,
+    fecha_inicio: '13/10/2024'
+  },
+  {
+    nro_poliza: 'POL1072',
+    id_cliente: 72,
+    fecha_inicio: '15/10/2024'
+  },
+  {
+    nro_poliza: 'POL1082',
+    id_cliente: 82,
+    fecha_inicio: '17/10/2024'
+  },
+  {
+    nro_poliza: 'POL1087',
+    id_cliente: 87,
+    fecha_inicio: '18/10/2024'
+  },
+  {
+    nro_poliza: 'POL1092',
+    id_cliente: 92,
+    fecha_inicio: '19/10/2024'
+  },
+  {
+    nro_poliza: 'POL1097',
+    id_cliente: 97,
+    fecha_inicio: '20/10/2024'
+  },
+  {
+    nro_poliza: 'POL1107',
+    id_cliente: 107,
+    fecha_inicio: '22/10/2024'
+  },
+  {
+    nro_poliza: 'POL1117',
+    id_cliente: 117,
+    fecha_inicio: '24/10/2024'
+  },
+  {
+    nro_poliza: 'POL1122',
+    id_cliente: 122,
+    fecha_inicio: '25/10/2024'
+  },
+  {
+    nro_poliza: 'POL1127',
+    id_cliente: 127,
+    fecha_inicio: '26/10/2024'
+  },
+  {
+    nro_poliza: 'POL1132',
+    id_cliente: 132,
+    fecha_inicio: '27/10/2024'
+  },
+  {
+    nro_poliza: 'POL1137',
+    id_cliente: 137,
+    fecha_inicio: '28/10/2024'
+  },
+  {
+    nro_poliza: 'POL1142',
+    id_cliente: 142,
+    fecha_inicio: '29/10/2024'
+  },
+  {
+    nro_poliza: 'POL1147',
+    id_cliente: 147,
+    fecha_inicio: '30/10/2024'
+  },
+  {
+    nro_poliza: 'POL1152',
+    id_cliente: 152,
+    fecha_inicio: '31/10/2024'
+  },
+  {
+    nro_poliza: 'POL1157',
+    id_cliente: 157,
+    fecha_inicio: '1/11/2024'
+  },
+  {
+    nro_poliza: 'POL1010',
+    id_cliente: 10,
+    fecha_inicio: '21/11/2024'
+  },
+  {
+    nro_poliza: 'POL1015',
+    id_cliente: 15,
+    fecha_inicio: '22/11/2024'
+  },
+  {
+    nro_poliza: 'POL1020',
+    id_cliente: 20,
+    fecha_inicio: '23/11/2024'
+  },
+  {
+    nro_poliza: 'POL1025',
+    id_cliente: 25,
+    fecha_inicio: '24/11/2024'
+  },
+  {
+    nro_poliza: 'POL1030',
+    id_cliente: 30,
+    fecha_inicio: '25/11/2024'
+  },
+  {
+    nro_poliza: 'POL1040',
+    id_cliente: 40,
+    fecha_inicio: '27/11/2024'
+  },
+  {
+    nro_poliza: 'POL1050',
+    id_cliente: 50,
+    fecha_inicio: '29/11/2024'
+  },
+  {
+    nro_poliza: 'POL1055',
+    id_cliente: 55,
+    fecha_inicio: '30/11/2024'
+  },
+  {
+    nro_poliza: 'POL1060',
+    id_cliente: 60,
+    fecha_inicio: '1/12/2024'
+  },
+  {
+    nro_poliza: 'POL1065',
+    id_cliente: 65,
+    fecha_inicio: '2/12/2024'
+  },
+  {
+    nro_poliza: 'POL1070',
+    id_cliente: 70,
+    fecha_inicio: '3/12/2024'
+  },
+  {
+    nro_poliza: 'POL1080',
+    id_cliente: 80,
+    fecha_inicio: '5/12/2024'
+  },
+  {
+    nro_poliza: 'POL1090',
+    id_cliente: 90,
+    fecha_inicio: '7/12/2024'
+  },
+  {
+    nro_poliza: 'POL1095',
+    id_cliente: 95,
+    fecha_inicio: '8/12/2024'
+  },
+  {
+    nro_poliza: 'POL1105',
+    id_cliente: 105,
+    fecha_inicio: '10/12/2024'
+  },
+  {
+    nro_poliza: 'POL1110',
+    id_cliente: 110,
+    fecha_inicio: '11/12/2024'
+  },
+  {
+    nro_poliza: 'POL1115',
+    id_cliente: 115,
+    fecha_inicio: '12/12/2024'
+  },
+  {
+    nro_poliza: 'POL1120',
+    id_cliente: 120,
+    fecha_inicio: '13/12/2024'
+  },
+  {
+    nro_poliza: 'POL1125',
+    id_cliente: 125,
+    fecha_inicio: '14/12/2024'
+  },
+  {
+    nro_poliza: 'POL1130',
+    id_cliente: 130,
+    fecha_inicio: '15/12/2024'
+  },
+  {
+    nro_poliza: 'POL1135',
+    id_cliente: 135,
+    fecha_inicio: '16/12/2024'
+  },
+  {
+    nro_poliza: 'POL1140',
+    id_cliente: 140,
+    fecha_inicio: '17/12/2024'
+  },
+  {
+    nro_poliza: 'POL1145',
+    id_cliente: 145,
+    fecha_inicio: '18/12/2024'
+  },
+  {
+    nro_poliza: 'POL1155',
+    id_cliente: 155,
+    fecha_inicio: '20/12/2024'
+  },
+  {
+    nro_poliza: 'POL1001',
+    id_cliente: 1,
+    fecha_inicio: '15/1/2025'
+  },
+  {
+    nro_poliza: 'POL1006',
+    id_cliente: 6,
+    fecha_inicio: '16/1/2025'
+  },
+  {
+    nro_poliza: 'POL1004',
+    id_cliente: 4,
+    fecha_inicio: '1/2/2025'
+  },
+  {
+    nro_poliza: 'POL1009',
+    id_cliente: 9,
+    fecha_inicio: '2/2/2025'
+  },
+  {
+    nro_poliza: 'POL1014',
+    id_cliente: 14,
+    fecha_inicio: '3/2/2025'
+  },
+  {
+    nro_poliza: 'POL1024',
+    id_cliente: 24,
+    fecha_inicio: '5/2/2025'
+  },
+  {
+    nro_poliza: 'POL1034',
+    id_cliente: 34,
+    fecha_inicio: '7/2/2025'
+  },
+  {
+    nro_poliza: 'POL1039',
+    id_cliente: 39,
+    fecha_inicio: '8/2/2025'
+  },
+  {
+    nro_poliza: 'POL1044',
+    id_cliente: 44,
+    fecha_inicio: '9/2/2025'
+  },
+  {
+    nro_poliza: 'POL1049',
+    id_cliente: 49,
+    fecha_inicio: '10/2/2025'
+  },
+  {
+    nro_poliza: 'POL1054',
+    id_cliente: 54,
+    fecha_inicio: '11/2/2025'
+  },
+  {
+    nro_poliza: 'POL1064',
+    id_cliente: 64,
+    fecha_inicio: '13/2/2025'
+  },
+  {
+    nro_poliza: 'POL1074',
+    id_cliente: 74,
+    fecha_inicio: '15/2/2025'
+  },
+  {
+    nro_poliza: 'POL1079',
+    id_cliente: 79,
+    fecha_inicio: '16/2/2025'
+  },
+  {
+    nro_poliza: 'POL1084',
+    id_cliente: 84,
+    fecha_inicio: '17/2/2025'
+  },
+  {
+    nro_poliza: 'POL1089',
+    id_cliente: 89,
+    fecha_inicio: '18/2/2025'
+  },
+  {
+    nro_poliza: 'POL1094',
+    id_cliente: 94,
+    fecha_inicio: '19/2/2025'
+  },
+  {
+    nro_poliza: 'POL1099',
+    id_cliente: 99,
+    fecha_inicio: '20/2/2025'
+  },
+  {
+    nro_poliza: 'POL1104',
+    id_cliente: 104,
+    fecha_inicio: '21/2/2025'
+  },
+  {
+    nro_poliza: 'POL1109',
+    id_cliente: 109,
+    fecha_inicio: '22/2/2025'
+  },
+  {
+    nro_poliza: 'POL1119',
+    id_cliente: 119,
+    fecha_inicio: '24/2/2025'
+  },
+  {
+    nro_poliza: 'POL1129',
+    id_cliente: 129,
+    fecha_inicio: '26/2/2025'
+  },
+  {
+    nro_poliza: 'POL1134',
+    id_cliente: 134,
+    fecha_inicio: '27/2/2025'
+  },
+  {
+    nro_poliza: 'POL1139',
+    id_cliente: 139,
+    fecha_inicio: '28/2/2025'
+  },
+  {
+    nro_poliza: 'POL1144',
+    id_cliente: 144,
+    fecha_inicio: '1/3/2025'
+  },
+  {
+    nro_poliza: 'POL1149',
+    id_cliente: 149,
+    fecha_inicio: '2/3/2025'
+  },
+  {
+    nro_poliza: 'POL1154',
+    id_cliente: 154,
+    fecha_inicio: '3/3/2025'
+  },
+  {
+    nro_poliza: 'POL1159',
+    id_cliente: 159,
+    fecha_inicio: '4/3/2025'
+  }
+]
+
+aseguradora> 

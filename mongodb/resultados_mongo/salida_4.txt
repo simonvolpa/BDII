@@ -1,0 +1,427 @@
+Current Mongosh Log ID:	6915fb0f888db46700ce5f46
+Connecting to:		mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.5.8
+Using MongoDB:		7.0.25
+Using Mongosh:		2.5.8
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2025-11-13T15:23:53.471+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2025-11-13T15:23:54.566+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2025-11-13T15:23:54.566+00:00: You are running this process as the root user, which is not recommended
+   2025-11-13T15:23:54.566+00:00: Soft rlimits for open file descriptors too low
+   2025-11-13T15:23:54.567+00:00: For customers running MongoDB 7.0, we suggest changing the contents of the following sysfsFile
+------
+
+test> switched to db aseguradora
+aseguradora> ... ... ... ... ... ... ... ... ... [
+  {
+    id_cliente: 9,
+    nombre: 'Loida',
+    apellido: 'Ibañez',
+    email: 'loida.ibañez@hotmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 12,
+    nombre: 'Macario',
+    apellido: 'Batlle',
+    email: 'macario.batlle@yahoo.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 14,
+    nombre: 'Diana',
+    apellido: 'Cepeda',
+    email: 'diana.cepeda@hotmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 17,
+    nombre: 'Jeremías',
+    apellido: 'Valero',
+    email: 'jeremías.valero@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 6,
+    nombre: 'Felicidad',
+    apellido: 'Ferrer',
+    email: 'felicidad.ferrer@hotmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 3,
+    nombre: 'Sofía',
+    apellido: 'López',
+    email: 'sofia@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 20,
+    nombre: 'Etelvina',
+    apellido: 'Bernad',
+    email: 'etelvina.bernad@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 22,
+    nombre: 'Rico',
+    apellido: 'Berenguer',
+    email: 'rico.berenguer@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 44,
+    nombre: 'Rubén',
+    apellido: 'Zorrilla',
+    email: 'rubén.zorrilla@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 52,
+    nombre: 'Ernesto',
+    apellido: 'Pla',
+    email: 'ernesto.pla@hotmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 41,
+    nombre: 'Yolanda',
+    apellido: 'Baró',
+    email: 'yolanda.baró@hotmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 59,
+    nombre: 'Montserrat',
+    apellido: 'Lara',
+    email: 'montserrat.lara@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 63,
+    nombre: 'Marciano',
+    apellido: 'Manrique',
+    email: 'marciano.manrique@hotmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 35,
+    nombre: 'Jose Francisco',
+    apellido: 'Carreño',
+    email: 'jose francisco.carreño@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 76,
+    nombre: 'Cayetano',
+    apellido: 'Pozuelo',
+    email: 'cayetano.pozuelo@yahoo.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 82,
+    nombre: 'Maxi',
+    apellido: 'Vilar',
+    email: 'maxi.vilar@yahoo.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 83,
+    nombre: 'Pastora',
+    apellido: 'Cordero',
+    email: 'pastora.cordero@hotmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 84,
+    nombre: 'María Ángeles',
+    apellido: 'Estevez',
+    email: 'maría ángeles.estevez@yahoo.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 88,
+    nombre: 'Benito',
+    apellido: 'Amor',
+    email: 'benito.amor@yahoo.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 89,
+    nombre: 'Ale',
+    apellido: 'Sanz',
+    email: 'ale.sanz@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 92,
+    nombre: 'Nacio',
+    apellido: 'Bosch',
+    email: 'nacio.bosch@hotmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 68,
+    nombre: 'Poncio',
+    apellido: 'Gras',
+    email: 'poncio.gras@yahoo.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 96,
+    nombre: 'Corona',
+    apellido: 'Bejarano',
+    email: 'corona.bejarano@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 103,
+    nombre: 'Ciriaco',
+    apellido: 'Batalla',
+    email: 'ciriaco.batalla@hotmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 105,
+    nombre: 'Pacífica',
+    apellido: 'Miralles',
+    email: 'pacífica.miralles@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 114,
+    nombre: 'Ramiro',
+    apellido: 'Araujo',
+    email: 'ramiro.araujo@yahoo.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 115,
+    nombre: 'Mariano',
+    apellido: 'Expósito',
+    email: 'mariano.expósito@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 117,
+    nombre: 'Pilar',
+    apellido: 'Borrego',
+    email: 'pilar.borrego@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 119,
+    nombre: 'Teresa',
+    apellido: 'Puig',
+    email: 'teresa.puig@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 110,
+    nombre: 'Francisco Jose',
+    apellido: 'Clemente',
+    email: 'francisco jose.clemente@hotmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 127,
+    nombre: 'Clara',
+    apellido: 'Guardia',
+    email: 'clara.guardia@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 128,
+    nombre: 'Vicenta',
+    apellido: 'Castejón',
+    email: 'vicenta.castejón@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 130,
+    nombre: 'Eufemia',
+    apellido: 'Barriga',
+    email: 'eufemia.barriga@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 133,
+    nombre: 'Maxi',
+    apellido: 'Leiva',
+    email: 'maxi.leiva@yahoo.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 135,
+    nombre: 'Macarena',
+    apellido: 'Herrero',
+    email: 'macarena.herrero@hotmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 136,
+    nombre: 'Bernarda',
+    apellido: 'Tormo',
+    email: 'bernarda.tormo@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 139,
+    nombre: 'Cleto',
+    apellido: 'Villegas',
+    email: 'cleto.villegas@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 147,
+    nombre: 'Ulises',
+    apellido: 'Leiva',
+    email: 'ulises.leiva@yahoo.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 149,
+    nombre: 'Sandra',
+    apellido: 'Gilabert',
+    email: 'sandra.gilabert@hotmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 152,
+    nombre: 'Amílcar',
+    apellido: 'Céspedes',
+    email: 'amílcar.céspedes@yahoo.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 145,
+    nombre: 'Iris',
+    apellido: 'Olmedo',
+    email: 'iris.olmedo@hotmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 140,
+    nombre: 'Octavio',
+    apellido: 'Girón',
+    email: 'octavio.girón@hotmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 161,
+    nombre: 'Lino',
+    apellido: 'Polo',
+    email: 'lino.polo@hotmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 160,
+    nombre: 'Martin',
+    apellido: 'Arias',
+    email: 'martin.arias@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 167,
+    nombre: 'Agustina',
+    apellido: 'Cordero',
+    email: 'agustina.cordero@yahoo.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 169,
+    nombre: 'Juan Luis',
+    apellido: 'Ropero',
+    email: 'juan luis.ropero@yahoo.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 171,
+    nombre: 'Virgilio',
+    apellido: 'Casares',
+    email: 'virgilio.casares@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 172,
+    nombre: 'Baudelio',
+    apellido: 'Arco',
+    email: 'baudelio.arco@hotmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 141,
+    nombre: 'Alcides',
+    apellido: 'Asenjo',
+    email: 'alcides.asenjo@hotmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 186,
+    nombre: 'Modesta',
+    apellido: 'Camacho',
+    email: 'modesta.camacho@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 189,
+    nombre: 'Luís',
+    apellido: 'Atienza',
+    email: 'luís.atienza@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 194,
+    nombre: 'Isaías',
+    apellido: 'Amador',
+    email: 'isaías.amador@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 197,
+    nombre: 'Casemiro',
+    apellido: 'Prado',
+    email: 'casemiro.prado@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 198,
+    nombre: 'Jose Manuel',
+    apellido: 'Sanchez',
+    email: 'jose manuel.sanchez@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 178,
+    nombre: 'Custodio',
+    apellido: 'Amador',
+    email: 'custodio.amador@gmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 176,
+    nombre: 'Apolonia',
+    apellido: 'Laguna',
+    email: 'apolonia.laguna@hotmail.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 201,
+    nombre: 'Beatriz',
+    apellido: 'Santiago',
+    email: 'beatriz.santiago@yahoo.com',
+    activo: 'False'
+  },
+  {
+    id_cliente: 202,
+    nombre: 'Adriana',
+    apellido: 'Ferrán',
+    email: 'adriana.ferrán@yahoo.com',
+    activo: 'False'
+  }
+]
+
+aseguradora> 
